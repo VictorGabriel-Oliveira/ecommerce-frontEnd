@@ -15,15 +15,15 @@ import product_image3 from './images/image-product-3.jpg'
 import product_image4 from './images/image-product-4.jpg'
 
 
-import Button from './componentes/Button';
-import Count from './componentes/Count';
-import Price from './componentes/Price';
-import Menu from './componentes/Menu';
-import Cart from './componentes/Cart';
-import ImagesConteiner from './componentes/ImagesConteiner'
+import Button from './components/Button';
+import Count from './components/Count';
+import Price from './components/Price';
+import Menu from './components/Menu';
+import Cart from './components/Cart';
+import ImagesConteiner from './components/ImagesConteiner'
 import { CartContext } from './contexts/cart';
 import { authContex } from './contexts/auth';
-import { CheckOutForm } from './componentes/CheckoutForm';
+import { CheckOutForm } from './components/CheckoutForm';
 
 function App() {
     const {user} =useContext(authContex)
