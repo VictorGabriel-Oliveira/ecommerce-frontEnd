@@ -1,0 +1,15 @@
+.image-conteiner{
+    margin-right: 10px;
+    >img{
+        height: 80px;
+        width: 80px;
+        border-radius: 5px;
+
+        &:hover{
+            cursor: pointer;
+            opacity: 0.5;
+        }
+        
+    }
+    
+}

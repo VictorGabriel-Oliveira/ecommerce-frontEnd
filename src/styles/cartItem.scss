@@ -1,0 +1,35 @@
+.cartItem_content{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 400;
+   .info{
+       width: 70%;
+       .title{
+           display: inline-block;
+           
+           width: 200px;
+           overflow: hidden;
+           text-overflow: ellipsis; 
+           white-space: nowrap;
+       }
+   }
+   .precos{
+       margin-left: 10px;
+   }
+   .last_price{
+       font-weight: 700;
+       color: black;
+   }
+
+   .delete{
+       margin-left: 10px;
+       cursor: pointer;
+   }
+}
+.tumb{
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}

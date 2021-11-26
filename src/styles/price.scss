@@ -1,0 +1,25 @@
+.price_conteiner{
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .last_price{
+        color: black;
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .off{
+        color: hsl(26, 100%, 55%);
+        background-color: hsl(25, 100%, 94%);
+        height: 30px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px ;
+    }
+    .initial_price{
+        text-decoration: line-through  hsl(219, 9%, 45%);
+    }
+}
